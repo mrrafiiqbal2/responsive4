@@ -1,0 +1,393 @@
+*{
+	padding: 0px ;
+	margin: 0px;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+   font-family: 'Montserrat', sans-serif;
+
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/*header part start*/
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	background: #eee;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin: 0px 0px 0px 10px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	font-family: 'Montserrat', sans-serif;
+	background: transparent;
+	color: red;
+	transition: 1s;
+}
+.header .navbar-nav .nav-link.active{
+	color: #44cdc8;
+
+}
+.header-banner{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+.header-banner .title{
+	padding: 80px 0px;
+	margin: 0px 0px 0px 240px;
+}
+.header-banner .title h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 26px;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	line-height: 1.2em;
+	letter-spacing: 2px;
+	padding: 30px 0px;
+}
+.header-banner .title p{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: 400;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+.header-banner .banner-btn{
+   margin: 40px 250px 0px 0px;
+}
+.header-banner .banner-btn .btn-danger{
+	padding: 10px;
+	margin: 10px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	color: black;
+	background: white;
+	border: 1px solid #eee;
+	border-radius: 1px;
+}
+.header-banner .banner-btn .btn-danger:hover{
+	background: black;
+	color: white;
+	transition: 1s;
+}
+.header-banner .banner-btn .btn-danger:focus{
+	background: transparent;
+	color: red;
+}
+/*header part end*/
+
+/*about part start*/
+.about{
+	width: 100%;
+	padding: 80px 0px;
+}
+.about .title{
+	text-align: center;
+	padding: 20px 0px;
+}
+.about .title h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: black;
+	font-weight: bold;
+	line-height: 1.7em;
+	padding: 30px 0px;
+}
+.about .title p{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 26px;
+	text-transform: uppercase;
+	color: 400;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+/*about part end*/
+
+/*number counter start*/
+.number-counter{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+	background: #10c9c3;
+
+}
+.counter-box{
+	margin: 0px 0px 0px 40px;
+	display: flex;
+
+}
+.counter-box .fa{
+	color: black;
+	font-size: 60px;
+	letter-spacing: 10px;
+	padding: 5px 0px;
+}
+.counter-box .fa:hover{
+	background: transparent;
+	color: white;
+	transition: 1s;
+}
+.number-counter h1{
+	margin: 20px 0px 0px 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+.number-counter p{
+font-weight: bold;	
+color: red;
+	margin: 20px 0px 0px 20px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: 400;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+
+/*number-counter end*/
+
+/*work-press start*/
+.work-press{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.work-press .title{
+	text-align: center;
+}
+.work-press .title h1{
+	padding: 10px 0px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	color: black;
+	font-weight: bold;
+}
+.work-press .title p{
+	font-weight: bold;	
+   color: black;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: 400;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+.work-press-video{
+	width: 100%;
+	padding: 250px 0px;
+	text-align: center;
+	background: #eee;
+}
+.work-press-video .fa{
+	font-size: 120px;
+}
+/*work-press end*/
+
+/*service party start*/
+.service{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+}
+.service .fa{
+	padding: 10px 0px;
+	font-size: 50px;
+	color: black ;
+}
+.service .title h4{
+   padding: 20px 0px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	color: red;
+	font-weight: 900;
+}
+.service .title p{
+	padding: 20px 0px;
+	font-weight: bold;	
+   color: black;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: black;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+/*service party end*/
+
+/*testimonials start*/
+.testimonials{
+	width: 100%;
+	padding: 80px 0px;
+	background: #10c9c3;
+}
+.owl-carousel{
+	text-align: center;
+}
+.testimonials .item{
+	padding: 20px 0px;
+}
+.testimonials .item h4{
+	padding: 20px 0px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	color: white;
+	font-weight: 800;
+}
+.testimonials .item p{
+	margin: 0px 0px 0px 240px;
+	padding: 10px 0px;
+	font-weight: bold;	
+   color: black;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: black;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+
+/*testimanial end*/
+
+/*client start*/
+.client{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+/*client end*/
+
+/*project start*/
+.project{
+	width: 100%;
+	padding: 80px 0px;
+	background: #eee;
+}
+.project-text{
+	text-align: center;
+}
+.project-text h1{
+	padding: 20px 0px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	color: black;
+	font-weight: 800;
+}
+.project-text p{
+	padding: 10px 0px;
+	font-weight: bold;	
+   color: black;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: black;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+.project-btn{
+	text-align: center;
+}
+.project-btn .btn-danger{
+	border: 1px solid transparent;
+	border-radius: 1px;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: black;
+	background: white;
+	transition: 1s;
+	padding: 5px 18px;
+}
+.project-btn .btn-danger:hover{
+	background: black;
+	color: white;
+}
+
+/*project end*/
+
+/*footer start*/
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: #141414;
+	text-align: center;
+}
+
+.logo-footer h5{
+   margin: 20px 0px;
+    padding: 10px 0px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	color: white;
+	font-weight: 800;
+}
+.logo-footer p{
+	padding: 10px 0px;
+	font-weight: bold;	
+   color: black;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+.item-menu li a{
+   color: white;
+   text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+
+
+}
+ul a {
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    text-decoration: none;
+
+
+}
+.footer-bottom{
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+}
+.copyright p{
+	color: white;
+	padding: 20px 0px;
+}
+.copyrights a{
+	 color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    text-decoration: none;
+}
+/*footer end*/
